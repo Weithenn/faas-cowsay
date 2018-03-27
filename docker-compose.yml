@@ -1,7 +1,7 @@
 version: "3"
 services:
     cowsay:
-        image: weithenn/cowsay:latest
+        image: weithenn/faas-cowsay:latest
         labels:
             function: "true"
         networks:
